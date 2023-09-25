@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-yvuj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0079-tenant/ci10t-786-0079-app/devfile-sample-yvuj@sha256:960b6073bd4922e8be5c86d4bd5510b606b8fea253c7c84e6ca27ee3aa9f60d0
+        name: my-nodejs
+        resources: {}
+status: {}
